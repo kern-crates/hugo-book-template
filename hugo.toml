@@ -23,3 +23,7 @@ enableGitInfo = true
   BookEditPath = 'edit/main'
   BookCommitPath = 'commit'
   BookDateFormat = 'Jan 2, 2006'
+
+[services]
+  [services.disqus]
+    shortname = 'kern-crates'
