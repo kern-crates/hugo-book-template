@@ -22,6 +22,7 @@ disableKinds = ['taxonomy']
 
 [params]
   BookTheme = 'auto'
+  BookSection = '*'
   # 💡: 文档仓库地址
   BookRepo = 'https://github.com/kern-crates/hugo-book-template'
   BookEditPath = 'edit/main'
