@@ -11,15 +11,15 @@ enableGitInfo = true
   startLevel = 1
 
 [[menu.after]]
-  name = "仓库地址"
+  name = '仓库地址'
   # 💡: 文档仓库地址
-  url = "https://github.com/AsyncOS/AsyncOS.github.io"
+  url = 'https://github.com/kern-crates/hugo-book-template'
   weight = 10
 
 [params]
   BookTheme = 'auto'
   # 💡: 文档仓库地址
-  BookRepo = 'https://github.com/AsyncOS/AsyncOS.github.io'
+  BookRepo = 'https://github.com/kern-crates/hugo-book-template'
   BookEditPath = 'edit/main'
   BookCommitPath = 'commit'
   BookDateFormat = 'Jan 2, 2006'

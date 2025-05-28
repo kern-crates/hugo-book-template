@@ -47,3 +47,8 @@ git push --set-upstream origin main
   * 通常需要 baseURL 调整地址：`make generate baseURL=your-url`
 
 注意：make 命令将把 README.md 的内容复制到 `content/_index.md`，以保持生成的网页主页与 README 内容一致。
+
+## 相关链接
+
+* AsyncOS 文档 ( <https://asyncos.github.io> ）采用相同的结构和模板，可以参考它的内容
+* [hugo-book](https://github.com/alex-shpak/hugo-book) 主题
