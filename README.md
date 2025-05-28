@@ -7,11 +7,34 @@ bookToc: false
 
 # 文档模板
 
-阅读地址：TODO
+阅读地址：<https://kern-crates.github.io/hugo-book-template>
+
+## 首次使用
+
+1. 创建一个 Github 仓库，假设为 my-doc
+2. 将该模板下载至本地，并上传至 Github 仓库
+
+```bash
+# 下载模板到 my-doc 目录
+git clone https://github.com/kern-crates/hugo-book-template.git my-doc
+
+# 进入 my-doc 目录
+cd my-doc
+
+# 删除旧的远程仓库地址，并设置成你自己的仓库地址
+git remote remove origin
+git remote add origin your-repo-url # 💡: 修改此处
+
+# 推送提交
+git push --set-upstream origin main
+```
+
+3. Github 设置从 Github Action 中部署 Pages。具体见 [#1](https://github.com/kern-crates/hugo-book-template/issues/1)。
+4. 在 `hugo.toml` 文件修改你的仓库等信息，尤其那些带 `💡` 的地方
 
 ## 添加/更新文档
 
-仓库地址：TODO
+仓库地址：<https://github.com/kern-crates/hugo-book-template>
 
 该文档采用 hugo 生成静态网页，并在 `content/docs/` 目录添加或者更新文档。
 
