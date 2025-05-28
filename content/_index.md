@@ -9,6 +9,8 @@ bookToc: false
 
 阅读地址：<https://kern-crates.github.io/hugo-book-template>
 
+仓库地址：<https://github.com/kern-crates/hugo-book-template>
+
 ## 首次使用
 
 1. 创建一个 Github 仓库，假设为 my-doc
@@ -21,11 +23,15 @@ git clone https://github.com/kern-crates/hugo-book-template.git my-doc
 # 进入 my-doc 目录
 cd my-doc
 
-# 删除旧的远程仓库地址，并设置成你自己的仓库地址
-git remote remove origin
+# 删除旧仓库记录，重新，初始化并设置成你自己的仓库地址
+rm .git -rf
+git init
 git remote add origin your-repo-url # 💡: 修改此处
 
+# 修改内容
+
 # 推送提交
+git commit -m "init"
 git push --set-upstream origin main
 ```
 
@@ -36,8 +42,6 @@ git push --set-upstream origin main
    文件删除，因为它关联了这个模板仓库的评论区。
 
 ## 添加/更新文档
-
-仓库地址：<https://github.com/kern-crates/hugo-book-template>
 
 该文档采用 hugo 生成静态网页，并在 `content/docs/` 目录添加或者更新文档。
 
