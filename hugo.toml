@@ -7,6 +7,10 @@ title = 'xxx 的文档'
 #  information on 'doc' type pages.
 enableGitInfo = true
 
+# (Optional) Theme is intended for documentation use, therefore it doesn't render taxonomy.
+# You can remove related files with config below
+disableKinds = ['taxonomy']
+
 [markup.tableOfContents]
   startLevel = 1
 
@@ -23,7 +27,3 @@ enableGitInfo = true
   BookEditPath = 'edit/main'
   BookCommitPath = 'commit'
   BookDateFormat = 'Jan 2, 2006'
-
-[services]
-  [services.disqus]
-    shortname = 'kern-crates'
