@@ -31,6 +31,9 @@ git push --set-upstream origin main
 
 3. Github 设置从 Github Action 中部署 Pages。具体见 [#1](https://github.com/kern-crates/hugo-book-template/issues/1)。
 4. 在 `hugo.toml` 文件修改你的仓库等信息，尤其那些带 `💡` 的地方
+5. 开启 giscus 评论区，具体见 [#3](https://github.com/kern-crates/hugo-book-template/issues/3)。
+   如果你不想要评论区，请把 `layouts/partials/docs/comments.html`
+   文件删除，因为它关联了这个模板仓库的评论区。
 
 ## 添加/更新文档
 
