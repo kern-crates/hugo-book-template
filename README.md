@@ -17,8 +17,8 @@ bookToc: false
 2. 将该模板下载至本地，并上传至 Github 仓库
 
 ```bash
-# 下载模板到 my-doc 目录
-git clone https://github.com/kern-crates/hugo-book-template.git my-doc
+# 下载模板到 my-doc 目录，并拉取 hugo-book 子模块
+git clone https://github.com/kern-crates/hugo-book-template.git my-doc --recursive
 
 # 进入 my-doc 目录
 cd my-doc
@@ -37,7 +37,7 @@ git push --set-upstream origin main
 
 3. Github 设置从 Github Action 中部署 Pages。具体见 [#1](https://github.com/kern-crates/hugo-book-template/issues/1)。
 4. 在 `hugo.toml` 文件修改你的仓库等信息，尤其那些带 `💡` 的地方
-5. 开启 giscus 评论区，具体见 [#3](https://github.com/kern-crates/hugo-book-template/issues/3)。
+5. 开启 giscus 评论区，具体见 [#3](https://github.com/kern-crates/hugo-book-template/issues/3)。  
    如果你不想要评论区，请把 `layouts/partials/docs/comments.html`
    文件删除，因为它关联了这个模板仓库的评论区。
 
