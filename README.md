@@ -48,7 +48,7 @@ git push --set-upstream origin main
 以下是一些 make 命令简化流程：
 
 * `make new doc=design/hi.md`：从模板中创建 `content/design/hi.md` 文件
-* `make serve`：本地预览文档
+* `make serve`：本地预览文档，访问地址默认为 `localhost:3001`
   * 如需修改地址和端口，使用 `make serve BIND=xxx PORT=xxx`
 * `make generate`：在 public 目录中生成静态网页
   * 通常需要 baseURL 调整地址：`make generate baseURL=your-url`
